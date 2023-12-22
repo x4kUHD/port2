@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+body {
+  margin: 0;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+.main {
+  height: 2000px;
+  background: linear-gradient(180deg, #DDE2F4 -2.36%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.box1 {
+  margin-top: 2000px;
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+}
+
+.gt {
+  color: #BAA702;
+}
+
+.t1 {
+  margin-bottom: -10px;
+  font-size: 84px;
+  font-weight: 500;
+}
+
+.t2 {
+  margin-bottom: 10px;
+  font-size: 48px;
+}
+
+.t3 {
+  /* line */
+  border-left: 2px solid #000;
+  height: 60px;
+  padding-left: 10px;
+
+  /* text */
+  font-weight: 450;
+  margin-top: 20px;
+  color: #696969;
+  font-size: 24px;
+}
+
+.margin1 {
+  margin-top: 260px;
+}
