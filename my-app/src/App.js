@@ -2,6 +2,11 @@ import styles from "./main.module.css";
 import React from "react";
 import NavBar from "./components/NavBar";
 import tmp from "./images/tmp.png";
+import email from "./images/email.png";
+import linkedin from "./images/linked.png";
+import git from "./images/git.png";
+import calendar from "./images/calendar.png";
+import phone from "./images/phone.png";
 
 function App() {
   return (
@@ -75,7 +80,7 @@ function App() {
           {/* ios calendar */}
           <a href="">
             <div className={styles.projectContainer}>
-              <img className={styles.thumbnail} src={tmp} alt="" />
+              <img className={styles.thumbnail} src={calendar} alt="" />
               <div className={styles.textContainer}>
                 <div className={styles.ptext1}>📅 iOS Calendar Case Study</div>
                 <div className={styles.ptext2}>ux design · ux research</div>
@@ -99,11 +104,33 @@ function App() {
                   standard dummy text ever since the 1500s
                 </div>
               </div>
-              <img className={styles.thumbnail} src={tmp} alt="" />
+              <img className={styles.thumbnail} src={phone} alt="" />
             </div>
           </a>
         </div>
       </section>
+      <div className={styles.footercnt}>
+        <footer className={styles.footer}>
+          <div className={styles.highlight}>
+            © 2024 Yeonwook (Eric) Kim. Made from Scratch :)
+          </div>
+          <br />
+          <div className={styles.highlight} style={{ fontSize: "24px" }}>
+            Let's Connect!
+          </div>
+          <div className={styles.connect}>
+            <a href="">
+              <img className={styles.connectimg} src={email} alt="" />
+            </a>
+            <a href="">
+              <img className={styles.connectimg} src={linkedin} alt="" />
+            </a>
+            <a href="">
+              <img className={styles.connectimg} src={git} alt="" />
+            </a>
+          </div>
+        </footer>
+      </div>
     </div>
   );
 }

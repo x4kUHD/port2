@@ -66,6 +66,10 @@ body {
   background: grey;
 }
 
+.thumbnail {
+  width: 350px;
+}
+
 .projects {
   margin-top: 40%;
 }
@@ -100,4 +104,22 @@ a {
 .ptext3 {
   font-size: 24px;
   margin-top: 10px;
+}
+
+.footer {
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.connectimg {
+  padding: 5px;
+  width: 45px;
+}
+
+.highlight {
+  display: inline-block;
+  color: white;
+  padding: 2px;
+  background-color: #ADADAD;
 }
