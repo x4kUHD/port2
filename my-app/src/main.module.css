@@ -56,3 +56,44 @@ body {
   margin-left: 5%;
   margin-top: 15%;
 }
+
+::selection {
+  color: white;
+  background: grey;
+}
+
+.projects {
+  margin-top: 40%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.projectContainer {
+  color: black;
+  padding: 100px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  width: 70%;
+}
+
+.textContainer {
+  padding: 50px;
+}
+
+.ptext1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.ptext2 {
+  font-size: 16px;
+  color: #959595;
+}
+
+.ptext3 {
+  font-size: 24px;
+  margin-top: 10px;
+}
