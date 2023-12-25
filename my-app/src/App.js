@@ -31,77 +31,79 @@ function App() {
           </div>
         </div>
       </div>
-      {/* projects */}
-      <div className={styles.projects}>
-        {/* Beaches App */}
-        <a href="">
-          <div className={styles.projectContainer}>
-            <img className={styles.thumbnail} src={tmp} alt="" />
-            <div className={styles.textContainer}>
-              <div className={styles.ptext1} style={{ color: "#00C2FF" }}>
-                🏖 Beaches App, inc.
-              </div>
-              <div className={styles.ptext2}>
-                ux design · ux research · internship
-              </div>
-              <div className={styles.ptext3}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </div>
-            </div>
-          </div>
-        </a>
-        {/* Stord */}
-        <a href="">
-          <div className={styles.projectContainer}>
-            <div className={styles.textContainer}>
-              <div className={styles.ptext1} style={{ color: "#3646F5" }}>
-                🚚 Stord TMS{" "}
-              </div>
-              <div className={styles.ptext2}>
-                product design · competitor research · internship
-              </div>
-              <div className={styles.ptext3}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+      <section id="projects">
+        {/* projects */}
+        <div className={styles.projects}>
+          {/* Beaches App */}
+          <a href="">
+            <div className={styles.projectContainer}>
+              <img className={styles.thumbnail} src={tmp} alt="" />
+              <div className={styles.textContainer}>
+                <div className={styles.ptext1} style={{ color: "#00C2FF" }}>
+                  🏖 Beaches App, inc.
+                </div>
+                <div className={styles.ptext2}>
+                  ux design · ux research · internship
+                </div>
+                <div className={styles.ptext3}>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </div>
               </div>
             </div>
-            <img className={styles.thumbnail} src={tmp} alt="" />
-          </div>
-        </a>
-        {/* ios calendar */}
-        <a href="">
-          <div className={styles.projectContainer}>
-            <img className={styles.thumbnail} src={tmp} alt="" />
-            <div className={styles.textContainer}>
-              <div className={styles.ptext1}>📅 iOS Calendar Case Study</div>
-              <div className={styles.ptext2}>ux design · ux research</div>
-              <div className={styles.ptext3}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+          </a>
+          {/* Stord */}
+          <a href="">
+            <div className={styles.projectContainer}>
+              <div className={styles.textContainer}>
+                <div className={styles.ptext1} style={{ color: "#3646F5" }}>
+                  🚚 Stord TMS{" "}
+                </div>
+                <div className={styles.ptext2}>
+                  product design · competitor research · internship
+                </div>
+                <div className={styles.ptext3}>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </div>
+              </div>
+              <img className={styles.thumbnail} src={tmp} alt="" />
+            </div>
+          </a>
+          {/* ios calendar */}
+          <a href="">
+            <div className={styles.projectContainer}>
+              <img className={styles.thumbnail} src={tmp} alt="" />
+              <div className={styles.textContainer}>
+                <div className={styles.ptext1}>📅 iOS Calendar Case Study</div>
+                <div className={styles.ptext2}>ux design · ux research</div>
+                <div className={styles.ptext3}>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </div>
               </div>
             </div>
-          </div>
-        </a>
-        {/* ios phone */}
-        <a href="">
-          <div className={styles.projectContainer}>
-            <div className={styles.textContainer}>
-              <div className={styles.ptext1}>📱iOS Phone App Redesign</div>
-              <div className={styles.ptext2}>ux design · ux research</div>
-              <div className={styles.ptext3}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+          </a>
+          {/* ios phone */}
+          <a href="">
+            <div className={styles.projectContainer}>
+              <div className={styles.textContainer}>
+                <div className={styles.ptext1}>📱iOS Phone App Redesign</div>
+                <div className={styles.ptext2}>ux design · ux research</div>
+                <div className={styles.ptext3}>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </div>
               </div>
+              <img className={styles.thumbnail} src={tmp} alt="" />
             </div>
-            <img className={styles.thumbnail} src={tmp} alt="" />
-          </div>
-        </a>
-      </div>
+          </a>
+        </div>
+      </section>
     </div>
   );
 }
