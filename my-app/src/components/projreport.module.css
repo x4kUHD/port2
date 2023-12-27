@@ -1,0 +1,12 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.main {
+    height: 4000px;
+}
