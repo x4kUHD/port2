@@ -1,7 +1,6 @@
 import styles from "./main.module.css";
 import React from "react";
 import NavBar from "./NavBar";
-import tmp from "../images/tmp.png";
 import email from "../images/email.png";
 import linkedin from "../images/linked.png";
 import git from "../images/git.png";
@@ -10,7 +9,6 @@ import phone from "../images/phone.png";
 import stord from "../images/stord.png";
 import ba from "../images/beachesapp.png";
 import { Link } from "react-router-dom";
-import transition from "../transition";
 
 function copyEmail() {
   const email = "ykim971@gatech.edu";
@@ -35,7 +33,6 @@ function Home() {
   return (
     <div className={`${styles.main}`}>
       <NavBar className={styles.navbar}></NavBar>
-
       <div className={styles.margin1}>
         <div className={`${styles.center} ${styles.box1}`}>
           <div className={styles.t1}>Hey, it's Eric 👋</div>

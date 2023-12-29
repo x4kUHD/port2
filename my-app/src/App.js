@@ -3,7 +3,6 @@ import Home from "./components/Home.js";
 import Calendar from "./components/Calendar.js";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
-import { AnimatePresence } from "framer-motion";
 
 function App() {
   return (

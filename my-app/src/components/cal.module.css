@@ -1,0 +1,97 @@
+.main {}
+
+.all {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.t1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.t2 {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #959595
+}
+
+.t3 {
+    font-size: 20px;
+    color: #7E7E7E;
+}
+
+.spt {
+    font-size: 20px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.sptTitle {
+    font-weight: 550;
+}
+
+.sptBox {
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.sptContent {
+    color: #7e7e7e;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+li {
+    padding: 1px;
+}
+
+.title {
+    padding-top: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 1px solid #7E7E7E;
+}
+
+.sur {
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+.sur div {
+    padding-top: 50px;
+}
+
+.ref div {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.vdpText {
+    margin-top: 200px;
+    font-size: 20px;
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.vdpText div {
+    padding-bottom: 20px;
+}
+
+.iframeCnt {
+    padding: 10px;
+    width: 50vw;
+    height: 100vw;
+}
+
+.figma {
+    width: 100%;
+    height: 100%;
+}
