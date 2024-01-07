@@ -11,7 +11,7 @@ body {
 
 .main {
   height: 2000px;
-  background: linear-gradient(180deg, #DDE2F4 -2.36%, rgba(255, 255, 255, 0.00) 100%);
+  background: linear-gradient(180deg, #e8edff -2.36%, rgba(255, 255, 255, 0.00) 100%);
 }
 
 .box1 {
@@ -66,10 +66,6 @@ body {
   background: grey;
 }
 
-.thumbnail {
-  width: 350px;
-}
-
 .projects {
   margin-top: 40%;
 }
@@ -121,25 +117,14 @@ a {
   display: inline-block;
   color: white;
   padding: 2px;
-  background-color: #ADADAD;
+  background-color: #808080;
 }
 
-.slide-in {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: #959595;
-  transform-origin: bottom;
+.thumbnail {
+  width: 350px;
+  transition: transform 0.3s ease-in-out;
 }
 
-.slide-out {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: #959595;
-  transform-origin: top;
+.thumbnail:hover {
+  transform: translateY(-40px);
 }

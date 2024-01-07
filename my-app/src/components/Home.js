@@ -1,5 +1,5 @@
 import styles from "./main.module.css";
-import React from "react";
+import React, { useState } from "react";
 import NavBar from "./NavBar";
 import email from "../images/email.png";
 import linkedin from "../images/linked.png";
@@ -114,7 +114,7 @@ function Home() {
             </div>
           </Link>
           {/* ios phone */}
-          <a href="">
+          <Link to={"/Phone"}>
             <div className={styles.projectContainer}>
               <div className={styles.textContainer}>
                 <div className={styles.ptext1}>📱iOS Phone App Redesign</div>
@@ -128,7 +128,7 @@ function Home() {
               </div>
               <img className={styles.thumbnail} src={phone} alt="" />
             </div>
-          </a>
+          </Link>
         </div>
       </section>
       <div className={styles.footercnt}>
