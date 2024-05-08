@@ -9,6 +9,8 @@ import phone from "../images/phone.png";
 import stord from "../images/stord.png";
 import ba from "../images/beachesapp.png";
 import { Link } from "react-router-dom";
+import ibm from "../images/ibm.png";
+import news from "../images/newsflow.png";
 
 function copyEmail() {
   const email = "ykim971@gatech.edu";
@@ -37,21 +39,15 @@ function Home() {
         <div className={`${styles.center} ${styles.box1}`}>
           <div className={styles.t1}>Hey, it's Eric 👋</div>
           <div className={styles.t2}>
-            studying cs + interaction design @
-            <span className={styles.gt}> georgia tech</span>
+            studying cs + hci @<span className={styles.gt}> georgia tech</span>
           </div>
           <div className={styles.t3}>
-            currently a <span style={{ color: "black" }}> ux intern </span> @{" "}
-            <span style={{ color: "#00C2FF", textDecoration: "underline" }}>
+            currently @ <span style={{ color: "#0057FF" }}>IBM</span> as a
+            <span style={{ color: "#000000" }}>
               {" "}
-              beaches app, inc.
-            </span>{" "}
-            previously an associate
-            <span style={{ color: "black" }}> product designer</span> @{" "}
-            <span style={{ color: "#0057FF", textDecoration: "underline" }}>
-              stord.
+              client engineering designer,
             </span>
-            <br /> as an artist and ui/ux enthusiast, i am driven by a deep
+            <br /> as an artist and ui/ux wizard, i am driven by a deep
             appreciation for the fusion of art and technology.
           </div>
         </div>
@@ -59,13 +55,46 @@ function Home() {
       <section id="projects">
         {/* projects */}
         <div className={styles.projects}>
-          {/* Beaches App */}
           <a>
+            <div className={styles.projectContainer}>
+              <img className={styles.thumbnail} src={ibm} alt="" />
+              <div className={styles.textContainer}>
+                <div className={styles.ptext1} style={{ color: "#0530AD" }}>
+                  🔒 IBM{" "}
+                </div>
+                <div className={styles.ptext2}>
+                  client engineering design · ux research · internship
+                </div>
+                <div className={styles.ptext3}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                  quis feugiat turpis, id lacinia eros.
+                </div>
+              </div>
+            </div>
+          </a>
+          <Link>
+            <div className={styles.projectContainer}>
+              <div className={styles.textContainer}>
+                <div className={styles.ptext1} style={{ color: "#505050" }}>
+                  📰 NewsFlow{" "}
+                </div>
+                <div className={styles.ptext2}>ux research · ux design</div>
+                <div className={styles.ptext3}>
+                  Led the ideation and prototyping of a news application
+                  tailored for college students, enhancing engagement through
+                  various user research methods.
+                </div>
+              </div>
+              <img className={styles.thumbnail} src={news} alt="" />
+            </div>
+          </Link>
+          {/* Beaches App */}
+          <Link to={"/Beaches"}>
             <div className={styles.projectContainer}>
               <img className={styles.thumbnail} src={ba} alt="" />
               <div className={styles.textContainer}>
                 <div className={styles.ptext1} style={{ color: "#00C2FF" }}>
-                  🏖 Beaches App, inc.
+                  🏖 Beaches App
                 </div>
                 <div className={styles.ptext2}>
                   ux design · ux research · internship
@@ -77,10 +106,26 @@ function Home() {
                 </div>
               </div>
             </div>
-          </a>
-          {/* Stord */}
-          <a href="">
+          </Link>
+          {/* ios calendar */}
+          <Link to={"/Calendar"}>
             <div className={styles.projectContainer}>
+              <div className={styles.textContainer}>
+                <div className={styles.ptext1}>📅 iOS Calendar Case Study</div>
+                <div className={styles.ptext2}>ux design · ux research</div>
+                <div className={styles.ptext3}>
+                  Investigated usability issues and gathered user feedback from
+                  App Store reviews and designed solutions to improve navigation
+                  and enhance visual consistency.
+                </div>
+              </div>
+              <img className={styles.thumbnail} src={calendar} alt="" />
+            </div>
+          </Link>
+          {/* Stord */}
+          <Link to={"/Stord"}>
+            <div className={styles.projectContainer}>
+              <img className={styles.thumbnail} src={stord} alt="" />
               <div className={styles.textContainer}>
                 <div className={styles.ptext1} style={{ color: "#3646F5" }}>
                   🚚 Stord TMS{" "}
@@ -90,25 +135,9 @@ function Home() {
                 </div>
                 <div className={styles.ptext3}>
                   Developed competitive analyses to help identify areas of
-                  competitive advantage and inform strategic decision-making and
-                  prototyped the UX of new features and functionalities for
-                  Stord's Transportation Management System.
-                </div>
-              </div>
-              <img className={styles.thumbnail} src={stord} alt="" />
-            </div>
-          </a>
-          {/* ios calendar */}
-          <Link to={"/Calendar"}>
-            <div className={styles.projectContainer}>
-              <img className={styles.thumbnail} src={calendar} alt="" />
-              <div className={styles.textContainer}>
-                <div className={styles.ptext1}>📅 iOS Calendar Case Study</div>
-                <div className={styles.ptext2}>ux design · ux research</div>
-                <div className={styles.ptext3}>
-                  Investigated usability issues and gathered user feedback from
-                  App Store reviews and designed solutions to improve
-                  navigation, enhance visual consistency, etc.
+                  competitive advantage and prototyped the UX of new features
+                  and functionalities for Stord's Transportation Management
+                  System.
                 </div>
               </div>
             </div>
@@ -160,5 +189,7 @@ function Home() {
     </div>
   );
 }
+
+// className={`${styles.center} ${styles.box1}`}
 
 export default Home;

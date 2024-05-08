@@ -25,7 +25,10 @@ function NavBar() {
           <Link onClick={workOnClick}>work</Link>
         </li>
         <li>
-          <a href="https://www.google.com/" target="_blank">
+          <a
+            href="https://drive.google.com/file/d/1_VzwNXqNiGiURFOdbPaog9xMnz4cbjn2/view?usp=sharing"
+            target="_blank"
+          >
             resume
           </a>
         </li>

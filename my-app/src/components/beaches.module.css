@@ -35,7 +35,7 @@
     /* border: 1px solid black; */
     width: 400px;
     height: 250px;
-    margin-right: 100px;
+    margin-right: -80px;
 }
 
 .sptBox2 {
@@ -58,6 +58,10 @@ ul {
     padding-left: 13px;
 }
 
+a {
+    color: blue;
+}
+
 .title {
     padding-top: 120px;
     font-size: 28px;
@@ -65,36 +69,38 @@ ul {
     border-bottom: 1px solid #7E7E7E;
 }
 
-.ref div {
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-.problem {
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.wireframe {
-    padding: 20px;
-    width: 80%;
-    height: 80%;
-}
-
-.wfbox {
-    display: flex;
-    justify-content: center;
-}
-
-.iconsimg {
-    margin-top: 20px;
-    width: 950px;
-    margin-left: -20px;
-}
-
 .bgi {
     width: 100vw;
     opacity: 100%;
     z-index: -9;
+}
+
+.ot {
+    width: 60%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.tam {
+    margin-top: 50px;
+    width: 90%;
+}
+
+.link {
+    font-size: 36px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.cusp {
+    width: 60%;
+}
+
+.wf {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }

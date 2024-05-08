@@ -3,12 +3,17 @@ import ogstyles from "./main.module.css";
 import NavBar from "./NavBar";
 import styles from "./phone.module.css";
 import tmp from "../images/tmp.png";
+import prob from "../images/phoneprob.png";
+import wf from "../images/phonewf.png";
+import icons from "../images/phoneicons.png";
+import vd from "../images/phonevd.png";
+import bg from "../images/phonebg.png";
 
 function Phone() {
   return (
     <div className={styles.main}>
       <NavBar className={ogstyles.navbar} />
-      <img src={tmp} alt="" />
+      <img className={styles.bgi} src={bg} alt="" />
       <div className={styles.all}>
         <div className={styles.t1}>iOS Phone Application Redesign</div>
         <div className={styles.t2}>UX Design · UX Research · Prototyping</div>
@@ -68,18 +73,62 @@ function Phone() {
           these pages provide additional options and information beyond just
           making phone calls.
         </div>
-        <img src={tmp} alt="" />
+        <div className={styles.problem}>
+          <img src={prob} alt="" />
+        </div>
         <div style={{ paddingTop: "50px" }}>
-          The elements in “favorites” and “recents” pages of the phone app are
-          subject to numerous mistakes by the user since one click triggers a
-          phone call. The icons of the “recents” page do not convey the
-          information obviously -- it’s not clear what call was incoming or what
-          call was outgoing. The top bar’s spacing of the text in the
-          “favorites” tab is inconsistent with the other tabs
+          <div>
+            The elements in “favorites” and “recents” pages of the phone app are
+            subject to numerous mistakes by the user since one click triggers a
+            phone call.
+          </div>
+          <div style={{ paddingTop: "20px" }}>
+            {" "}
+            The icons of the “recents” page do not convey the information
+            obviously -- it’s not clear what call was incoming or what call was
+            outgoing.
+          </div>
+          <div style={{ paddingTop: "20px" }}>
+            {" "}
+            The top bar’s spacing of the text in the “favorites” tab is
+            inconsistent with the other tabs
+          </div>
         </div>
         <div className={styles.title}>Wireframing</div>
+        <div className={styles.wfbox}>
+          <img className={styles.wireframe} src={wf} alt="" />
+        </div>
+        <div>
+          <div>
+            The “Favorites” text spacing adjusted to be consistent with the rest
+            of the tabs. Instead of triggering a call right away, tapping on a
+            contact now provides a safeguard tab.
+          </div>
+          <div style={{ paddingTop: "20px" }}>
+            The tab shows the contact’s phone number, and five options --
+            message, call, FaceTime, mail, and view contact information.
+          </div>
+          <div style={{ paddingTop: "20px" }}>
+            Tapping on a recent call now provides a safeguard tab.
+          </div>
+          <div style={{ paddingTop: "20px" }}>
+            The tab shows the more specifications and five options -- message,
+            call, FaceTime, mail, and view more.
+          </div>
+        </div>
         <div className={styles.title}>Icons and Colors</div>
+        <img className={styles.iconsimg} src={icons} alt="" />
         <div className={styles.title}>Visual Design and Prototype</div>
+        <img style={{ marginTop: "20px" }} src={vd} alt="" />
+
+        <div className={styles.wfbox}>
+          <iframe
+            width="450"
+            height="800"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRs1F9R6Z76gCizWGxgDqBs%2Fphone-case-study%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-2%26viewport%3D299%252C318%252C0.54%26t%3DftMg8f4rB4hDNYzl-1%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2%26mode%3Ddesign"
+            allowfullscreen
+          ></iframe>
+        </div>
         <div className={styles.title}>Reflection</div>
         <div className={styles.ref} style={{ fontSize: "20px" }}>
           <div>

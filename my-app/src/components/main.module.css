@@ -111,6 +111,11 @@ a {
 .connectimg {
   padding: 5px;
   width: 45px;
+  transition: padding 0.3s ease;
+}
+
+.connectimg:hover {
+  padding: 1px;
 }
 
 .highlight {
