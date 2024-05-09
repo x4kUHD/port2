@@ -104,3 +104,33 @@ a {
     display: flex;
     justify-content: center;
 }
+
+.oblow {
+    width: 80%;
+}
+
+.obp {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.uxr2 {
+    margin-top: 50px;
+    width: 80%;
+}
+
+.babrain1 {
+    width: 70%;
+}
+
+.mid {
+    height: 800px;
+    margin-left: 50px;
+}
+
+.babusi {
+    width: 20%;
+    margin: 20px;
+
+}
